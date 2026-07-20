@@ -1,0 +1,7 @@
+timestamp,question,cache_hit,cache_scope,latency_ms,prompt_tokens,output_tokens,total_tokens,tokens_saved
+1784507304.9586594,What is my current balance?,False,specific,4908.34,994,49,1043,0
+1784507308.945578,What is my current balance?,True,specific,72.09,0,0,0,1043
+1784507321.9145224,What's my account balance?,True,specific,106.22,0,0,0,1043
+1784507336.317143,How much money do I have in my account?,True,specific,62.39,0,0,0,1043
+1784507358.500253,What are my recent transactions?,False,specific,7250.22,1063,146,1209,0
+1784507372.1403692,Can you show me my last transactions?,True,specific,69.68,0,0,0,1209

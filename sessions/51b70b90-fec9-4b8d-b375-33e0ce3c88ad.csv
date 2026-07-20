@@ -1,0 +1,11 @@
+timestamp,question,cache_hit,cache_scope,latency_ms,prompt_tokens,output_tokens,total_tokens,tokens_saved
+1784508577.4559138,What is my current balance?,False,specific,5512.25,994,61,1055,0
+1784508590.6533854,What is my current balance?,False,specific,4938.49,994,49,1043,0
+1784508616.1717377,What's my account balance?,True,specific,64.99,0,0,0,1055
+1784508639.0307245,Do you offer a savings account?,False,general,6780.17,481,271,752,0
+1784508651.8674688,What is my current balance?,True,specific,76.46,0,0,0,1043
+1784508668.7597363,Do you offer a savings account?,True,general,144.92,0,0,0,752
+1784508692.4842567,What are my recent transactions?,False,specific,6609.19,1063,146,1209,0
+1784508718.4395132,What are my recent transactions?,False,specific,5986.16,1031,121,1152,0
+1784508733.0533586,"Please block my card, I lost it.",False,specific,5068.24,1011,116,1127,0
+1784508743.9292188,Can you show me my last transactions?,True,specific,58.81,0,0,0,1209

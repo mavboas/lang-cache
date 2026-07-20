@@ -1,0 +1,7 @@
+timestamp,question,cache_hit,cache_scope,latency_ms,prompt_tokens,output_tokens,total_tokens,tokens_saved
+1784506310.2641006,What is my current balance?,False,,6754.56,994,61,1055,0
+1784506325.4519353,What is my current balance?,False,,4632.05,994,61,1055,0
+1784506338.5947573,What's my account balance?,False,,4632.95,994,63,1057,0
+1784506352.724674,How much money do I have in my account?,False,,4414.66,1002,46,1048,0
+1784506378.5711265,What are my recent transactions?,False,,5817.78,1063,146,1209,0
+1784506391.9267917,Can you show me my last transactions?,False,,5760.21,1067,143,1210,0

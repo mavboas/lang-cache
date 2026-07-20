@@ -1,0 +1,28 @@
+services:
+  valkey:
+    image: valkey/valkey-bundle:latest
+    container_name: valkey_semantic_cache
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: valkey-server --save 20 1
+    mem_limit: 256m
+    mem_reservation: 128m
+
+  # app:
+  #   build: .
+  #   container_name: semantic_cache_app
+  #   ports:
+  #     - "8000:8000"
+  #   environment:
+  #     - REDIS_URL=redis://valkey:6379
+  #   env_file:
+  #     - .env
+  #   depends_on:
+  #     - valkey
+  #   mem_limit: 256m
+  #   mem_reservation: 128m
+
+volumes:
+  redis_data:
